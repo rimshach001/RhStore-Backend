@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 
 const connectDB = async () => {
     try {
-        await mongoose.connect('mongodb://localhost:27017/RhShop', {
+        await mongoose.connect('mongodb://localhost:27017/heart-Reflect', {
             useNewUrlParser: true,
             useUnifiedTopology: true,
         });
